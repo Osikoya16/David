@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/12fc52419c.js" crossorigin="anonymous"></script>
+    <title>prototype</title>
+    <style>
+         body{
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        nav{
+            width: 100%;
+            height: 70px;
+            background: #ffffff;
+        }
+        .ul1{
+            float: right;
+            list-style-type: none;
+            padding-top: 0px;
+        }
+        .ul1 li{
+            float: left;
+            margin-left: 45px;
+        }
+        .div1{
+            padding: 20px;
+            position: right;
+            display: flex;
+        }
+        .ul2{
+            list-style-type: none;
+            float: right; 
+            margin-left: 0px;           
+        }
+        .ul2 li{
+            float: left;
+            margin-left: 20px;
+        }
+        .search_bar{
+            width: 30%;
+            margin: auto;
+        }
+        .main{
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        .first{
+            padding: 30px 0px 0px 30px;
+            width: 50%;
+        }
+        .video{
+            /* margin: 40px 0px 0px 40px; */
+            width: 100%;
+            /* height: 550px; */
+        }
+        .po{
+            padding: 0 0 0 150px;
+        }
+        .second{
+            width: 50%;
+        }
+        a{
+            color: #000;
+        }
+        a:hover{
+            color: black;
+            text-decoration: none;
+        }
+        .btn:hover{
+           background-color: #5a5858;
+
+        }
+        .dave{
+            width: 1000px;
+            background-color: aqua;
+        }
+        @media only screen and (max-width:550px){
+            .first{
+                width: 100%;
+                padding: 30px 30px 0px 30px;
+            }
+            .po{
+                padding: 0 0 0 0;
+            }
+            .second{
+                width: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="div1"><span class="fa fa-youtube" style="color: red;"><strong style="color: black;">Youtube<sup style="font-weight: lighter;">NG</sup></strong></span>
+            <div class="search_bar input-group ">
+                <input type="text" class="form-control d-none d-md-block d-lg-block" placeholder="Search">
+                <div class="input-group-append d-none d-lg-flex d-md-flex">
+                    <span class="input-group-text" style=" outline: none;"><span class="fa fa-search"></span></span>
+                </div>
+            </div>
+            <ul class="ul1 d-none d-lg-block d-md-block">
+                <li><span class="fa fa-video" style="color: #5a5858;"></span></li>
+                <li><span class="fa fa-bell" style="color: #5a5858;"></span></li>
+                <li><span class="fas fa-user" style="color: #5a5858;"></span></li>
+            </ul>
+            <ul class="ul2 d-lg-none d-md-none">
+                <li><span class="fa fa-search" style="color: #5a5858;"></span></li>
+                <li><span class="far fa-user" style="color: #5a5858;"></span></li>
+            </ul>
+        </div>      
+    </nav>
+    <div class="main">
+        <div class="first">
+           <div style="width: 100%;">
+                <video class="video" src="../video/13 God or God.mp4" autoplay></video>
+                <p style="font-size: large; font-weight: bolder;">THE GOD OF HIGHSCHOOL (GOH) S01E13 </p>
+                <div style="display: flex; width:  100%; border-bottom: 2px solid #313131;">
+                    <p style="line-height: 0px; font-weight: bold; font-size: small;">500,785 views .  Sep 23,2020</p>
+                    <p class="po" >
+                        <span class="fa fa-thumbs-down mx-1">13K</span>
+                        <span class="fas fa-thumbs-up mx-1">500</span>
+                        <span class="fa fa-share mx-1">SHARE</span>
+                        <span class="fas fa-save mx-1 d-none d-lg-inline">SAVE</span>
+                        <span class="fa fa-ellipsis-h mx-1"></span>
+                    </p>
+                </div>      
+                <div style="margin:20px 0 0 0; border-bottom: 1px solid #313131;">
+                    <img src="../images/patrick.jpg" style="width:50px; height: 50px; border-radius: 50px;"><span class="font-weight-bold d-2">  Tv Promo</span>
+                    <button class="btn btn-danger d-inline" style="float: right; outline: none;">SUBSCRIBE <span class="fa fa-bell d-2"></span></button>
+                    <p class="container font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi asperiores earum ducimus consequuntur dicta, ipsum pariatur voluptatibus autem obcaecati? Libero illo iusto officia ex voluptatum at a dolores ad accusantium!
+                    </p>
+                </div>
+                <div style="margin:10px 0 0 0; border-bottom: 1px solid #313131;">
+                        <img src="../images/vegeta.jpg" style="width:50px; height: 50px; border-radius: 50px;"><span class="font-weight-bold d-2">  David</span>
+                        <p class="container font-weight-normal">Wow....Epic,Can't wait for season 2</p>
+                    <div class="mx-4"> <span class="fa fa-thumbs-up mx-5">1k</span>             <span class="fa fa-thumbs-down">50</span> </div>
+                </div>  
+                <div style="margin:10px 0 0 0; border-bottom: 1px solid #313131;">
+                        <img src="../images/black-p.jpg" style="width:50px; height: 50px; border-radius: 50px;"><span class="font-weight-bold d-2">  David</span>
+                        <p class="container font-weight-normal">Monkey-King</p>
+                    <div class="mx-4"> <span class="fa fa-thumbs-up mx-5">1k</span>             <span class="fa fa-thumbs-down">50</span> </div>
+                </div>
+        </div>
+        <div class="second">
+                <div class="dave" style="background-color: aqua"></div>
+        </div>
+
+    </div>
+    <div class="d-lg-none " style="display: flex; width: 100%; height: 65px; background-color: #f9f9f991; position: fixed;; bottom: -10px; text-align: center;" >
+            <a href="Prototype.html" class="mx-auto my-auto">
+                <div>
+                    <span class="fa fa-home" style="color: red;"></span>
+                    <p style="text-align: center;">Home</p>
+                </div> 
+            </a>
+            <div class="mx-auto my-auto">
+                <span class="fa fa-fire"></span>
+                <p style="text-align: center;">Trending</p>
+            </div>
+            <div class="mx-auto my-auto">
+                <span class="fa fa-clone"></span>
+                <p style="text-align: center;">Library</p>
+            </div>
+            <div class="mx-auto my-auto">
+                <span class="fa fa-bell"></span>
+                <p style="text-align: center;">Subscription</p>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    <script src="../bootstrap/js/popper.min.js"></script>
+    <script src="../bootstrap/js/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

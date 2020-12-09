@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/12fc52419c.js" crossorigin="anonymous"></script>
+    <title>Prototype</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        nav{
+            width: 100%;
+            height: 70px;
+            background: #ffffff;
+        }
+        .ul1{
+            float: right;
+            list-style-type: none;
+            padding-top: 0px;
+        }
+        .ul1 li{
+            float: left;
+            margin-left: 45px;
+        }
+        .div1{
+            padding: 20px;
+            position: right;
+            display: flex;
+        }
+        .ul2{
+            list-style-type: none;
+            float: right; 
+            margin-left: 0px;           
+        }
+        .ul2 li{
+            float: left;
+            margin-left: 20px;
+        }
+        .search_bar{
+            width: 30%;
+            margin: auto;
+        }
+        .div3{
+            display: flex;
+            float: right;
+            width: 100%;
+            height: 50%;
+            background-color: #ffffff;
+            padding: 5px 0 5px 15px;
+            border: 1px solid rgb(235, 230, 230);
+        }
+        .nav2{
+            display: flex;
+            position: fixed;
+        }
+        .div4{
+            width: 20%;
+            height: 100vh;
+            background: #ffffff;
+            border-top: 1px solid rgb(235, 230, 230);
+        }
+        button{
+            width: 10%;
+            margin-left: 30px;
+        }
+        .label{
+            width: 7%;
+            height: 100%;
+            background-color: #f6f4f4;
+            margin-left: 40px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        ul{
+            list-style: none;
+        }
+        .div4{
+            padding-top: 10px;
+        }
+        .div4 li{
+            margin: 25px;
+            border-bottom: 2px solid #5a5858;
+        }
+        .ola{
+            width: 255px;
+            height: 150px;
+            background-color: #121212;
+            margin: 10px;
+        }
+        .div6{
+            padding-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card{
+            background-color: #f9f9f9;
+            border: 0px solid wheat;
+        }
+        a{
+            color: black;
+        }
+        a:hover{
+            color: black;
+        }
+    </style>
+</head>
+<body> 
+    <nav>
+       <div class="div1"><span class="fa fa-youtube" style="color: red;"><strong style="color: black;">Youtube<sup style="font-weight: lighter;">NG</sup></strong></span>
+            <div class="search_bar input-group ">
+                    <input type="text" class="form-control d-none d-md-block d-lg-block" placeholder="Search">
+                    <div class="input-group-append d-none d-lg-flex d-md-flex">
+                      <span class="input-group-text" style=" outline: none;"><span class="fa fa-search"></span></span>
+                    </div>
+            </div>
+            <ul class="ul1 d-none d-lg-block d-md-block">
+                <li><span class="fa fa-video" style="color: #5a5858;"></span></li>
+                <li><span class="fa fa-bell" style="color: #5a5858;"></span></li>
+                <li><span class="fas fa-user" style="color: #5a5858;"></span></li>
+            </ul>
+            <ul class="ul2 d-lg-none d-md-none">
+                <li><span class="fa fa-search" style="color: #5a5858;"></span></li>
+                <li><span class="far fa-user" style="color: #5a5858;"></span></li>
+            </ul>
+        </div>      
+    </nav>
+    <nav class="nav2">
+        <div class="div4 d-none d-lg-block">
+            <ul>
+                <li><span class="fa fa-home" style="color: #5a5858;"></span>  Home</li>
+                <li><span class="fa fa-fire" style="color: #5a5858;"></span>  Trending</li>
+                <li><span class="fa fa-clone" style="color: #5a5858;"></span>  Library</li>
+                <li><span class="fa fa-history" style="color: #5a5858;">  History</span></li>
+            </ul>
+
+        </div>
+        <div style="width: 100%; height: 100%; background-color: #f9f9f9;">
+            <div class="div3 d-none d-lg-flex d-md-flex">
+                <label class="label">All</label>
+                <label class="label">Fifa 21</label>
+                <label class="label">NBA</label>
+                <label class="label" style="width: 10%;">Uefa Euro</label>
+                <label class="label">Anime</label>
+                <label class="label" style="width: 8%;">Comedy</label>
+                <label class="label"style="width: 8%;">Trailer</label>
+                <label class="label"style="width: 8%;">Trailer</label>
+                <label class="label">UCL</label>
+                
+            </div> 
+            <div class="div6 container-fluid">   
+              <a href="Prototype2.html">              
+               <div class="card">
+                   <img src="../images/AnimeX_106774.jpeg" class="ola"> 
+                      <div><img src="../images/black-p.jpg"  width="40px" style="height: 40px; border-radius: 40px;"><span style="margin: 10px; font-weight: bold;">Obito Is Still Alive?</span>
+                        <p style="text-indent: 50px; line-height: 5px;">23k views</p>
+                        <p style="text-indent: 50px; line-height: 5px">1 Month ago</p>
+                    </div>
+                </div>
+              </a>
+              <a href="Prototype2.html">
+                <div class="card">
+                    <img src="../images/stadium.jpg" class="ola">
+                    <div><img src="../images/mask4.jpg"  width="40px" style="height: 40px; border-radius: 40px;"><span style="margin: 10px; font-size: small; font-weight: bolder;">TOTTENHAM'S STADIUM</span>
+                        <p style="text-indent: 50px; line-height: 5px;">13.2k views</p>
+                        <p style="text-indent: 50px; line-height: 5px">9 Months ago</p>
+                    </div>
+                </div> 
+              </a>
+              <a href="Prototype2.html">   
+                <div class="card">
+                    <img src="../images/AnimeX_614751.jpeg" class="ola">
+                    <div><img src="../images/mask1.jpg"  width="40px" style="height: 40px; border-radius: 40px;"><span style="margin: 10px; font-size: small; font-weight: bold;">Naruto VS Sasuke</span>
+                        <p style="text-indent: 50px; line-height: 5px;">222k views</p>
+                        <p style="text-indent: 50px; line-height: 5px">10 Months ago</p>                   
+                    </div>
+                </div> 
+               </a>
+               <a href="Prototype2.html">    
+                <div class="card">
+                    <img src="../images/AnimeX_387469.jpeg" class="ola">
+                    <div><img src="../images/vegeta.jpg"  width="40px" style="height: 40px; border-radius: 40px;"><span style="margin: 10px; font-size: small; font-weight: bold;">Sasuke Kills Orochimaru</span>
+                        <p style="text-indent: 50px; line-height: 5px;">9.2M views</p>
+                        <p style="text-indent: 50px; line-height: 5px">4 Years ago</p>
+                    </div>
+                </div> 
+               </a>    
+            </div>
+            
+            <div class="div6 container-fluid">                
+               <a href="Prototype2.html">
+                <div class="card">
+                    <img src="../images/AnimeX_106774.jpeg" class="ola"> 
+                       <div><img src="../images/black-p.jpg"  width="40px" style="height: 40px; border-radius: 40px;"><span style="margin: 10px; font-weight: bold;">Obito Is Still Alive?</span>
+                         <p style="text-indent: 50px; line-height: 5px;">23k views</p>
+                         <p style="text-indent: 50px; line-height: 5px">1 Month ago</p>
+                     </div>
+                </div></a>
+               <a href="Prototype2.html"> 
+                <div class="card">
+                     <img src="../images/stadium.jpg" class="ola">
+                     <div><img src="../images/mask4.jpg"  width="40px" style="height: 40px; border-radius: 40px;"><span style="margin: 10px; font-size: small; font-weight: bolder;">TOTTENHAM'S STADIUM</span>
+                         <p style="text-indent: 50px; line-height: 5px;">10.2M views</p>
+                         <p style="text-indent: 50px; line-height: 5px"> 2 Years ago</p>
+                     </div>
+                </div>
+               </a> 
+               <a href="Prototype2.html">    
+                <div class="card">
+                     <img src="../images/AnimeX_614751.jpeg" class="ola">
+                     <div><img src="../images/mask1.jpg"  width="40px" style="height: 40px; border-radius: 40px;"><span style="margin: 10px; font-size: small; font-weight: bold;">Naruto VS Sasuke</span>
+                         <p style="text-indent: 50px; line-height: 5px;">100k views</p>
+                         <p style="text-indent: 50px; line-height: 5px">1 Year ago</p>                   
+                     </div>
+                </div> 
+               </a>    
+               <a href="Prototype2.html">
+                <div class="card">
+                     <img src="../images/AnimeX_387469.jpeg" class="ola">
+                    <div>
+                         <img src="../images/vegeta.jpg"  width="40px" style="height: 40px; border-radius: 40px;"><span style="margin: 10px; font-size: small; font-weight: bold;">Sasuke Kills Orochimaru</span>
+                         <p style="text-indent: 50px; line-height: 5px;">9.2M views</p>
+                         <p style="text-indent: 50px; line-height: 5px">4 Years ago</p>
+                    </div>
+                </div> 
+               </a>    
+            </div>            
+        </div>
+    </nav>
+    <div class="d-lg-none " style="display: flex; width: 100%; height: 65px; background-color: #f9f9f991; position: fixed; bottom: 0; text-align: center;" >
+        <div class="mx-auto my-auto">
+            <span class="fa fa-home" style="color: red;"></span>
+            <p style="text-align: center;">Home</p>
+        </div> 
+        <div class="mx-auto my-auto">
+            <span class="fa fa-fire"></span>
+            <p style="text-align: center;">Trending</p>
+        </div>
+        <div class="mx-auto my-auto">
+            <span class="fa fa-clone"></span>
+            <p style="text-align: center;">Library</p>
+        </div>
+        <div class="mx-auto my-auto">
+            <span class="fa fa-bell"></span>
+            <p style="text-align: center;">Subscription</p>
+        </div>
+    </div>
+    <script src="../bootstrap/js/popper.min.js"></script>
+    <script src="../bootstrap/js/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

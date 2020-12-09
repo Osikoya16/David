@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/12fc52419c.js" crossorigin="anonymous"></script>
+    <title>Log in</title>
+    <style>
+        body{
+            background-color: #f9f9f9;
+        }
+        .main{
+            display: flex;
+            width: 100%;
+            background-color: #f9f9f9;
+            padding-top: 50px;
+        }
+        .login{
+            width: 350px;
+            height: 430px;
+            background-color: white;
+            box-shadow: 0px 0px 0px 1px #cfcece ;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        .form-group{
+            width: 280px;
+            margin: auto;
+        }
+        .btn{
+            width: 280px;
+            margin: 10px 35px;
+            background-color: #279fe6;
+            color: white;
+        }
+        .facebook{
+            text-align: center
+        }
+        .sign_up{
+            margin-top: 80px;
+            width: 350px;
+            height: 70px;
+            background-color: white;
+            box-shadow: 0px 0px 0px 1px #cfcece ;     
+            text-align: center;       
+        }
+        .image{
+            padding-left: 250px;
+        }
+        @media only screen and (max-width:550px){
+            .image{
+                display: none;
+            }
+            .login{
+                width: 100%;
+                margin-right: 80px;
+            }
+            .sign_up{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="image"><img src="../images/login.png" style="border-radius: 10px; " class="images"></div>
+        <div class="login ml-5 pt-5 ">
+            <h1>Instagram</h1>
+            <div class="row">
+                    <div class="col">
+                        <div class="form-group pt-4">
+                            <input type="text" class="form-control " placeholder="Phone number, username, or email" style="background-color: #f9f9f9; font-size: small;">
+                        </div>
+                    </div>   
+            </div>
+            <div class="row">
+                    <div class="col ">
+                        <div class="form-group mt-2 ">
+                            <input type="password" class="form-control " placeholder="Password" style="background-color: #f9f9f9; font-size: small;">
+                        </div>
+                    </div>    
+            </div>  
+            <div>
+               <a href="Instagram Home.html"> <button class="btn" style="font-weight: 550; font-size: normal;">Log In</button> </a>
+            </div>   
+            <div class="facebook pt-5">
+                <span class="fa fa-facebook" style="color: rgb(77, 77, 144); font-weight: 500; font-size: 700;">  Log in with Facebook</span>
+                <p class="mt-3" style="font-size: small; color: rgb(3, 3, 68);"><a href="Instagram Forgot Password.html"style="font-size: small; color: rgb(3, 3, 68);">Forgot password?</a></p>
+            </div>   
+            <div class="sign_up pt-4">
+                <p>Don't have an account? <a href="Instagram Sign-up.html" style="font-weight: 650;">Sign up</a></p>
+            </div>                 
+        </div>
+    </div>
+
+
+
+
+    <script src="../bootstrap/js/popper.min.js"></script>
+    <script src="../bootstrap/js/jquery.min.js"></script>
+    <script src="../bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
